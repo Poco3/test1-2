@@ -8,12 +8,12 @@
 <body>
     
     <script>
-        window.prompt("日本の首都は？");
-        alert("不正解です");
-
-         let question = window.prompt("日本の首都は？");
-         while(question === "東京"){
-        　alert("正解です！") }
+        while(question = window.prompt("日本の首都は")) {
+            if (question ==="東京") {
+                alert("正解です！");
+            } else if (question !== "東京") {
+                alert("不正解です！");
+            }}
     </script>
     
 </body>
