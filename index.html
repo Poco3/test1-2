@@ -6,19 +6,21 @@
     <title>Document</title>
     </head>
 <body>
-    
     <script>
-        while(question = window.prompt("日本の首都は")) {
-            if (question ==="東京") {
-                alert("正解です！");
-            } else if (question !== "東京") {
+        
+        let question
+        while(question = prompt("日本の首都は")) {
+            if (question !== "東京") {
                 alert("不正解です！");
-            }}
+            } else if (question === "東京" ) {
+                alert("正解です！");
+                break;
+                 }
+                }
+     
     </script>
     
 </body>
 </html>
 
 
-
-   
